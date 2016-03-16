@@ -1,0 +1,531 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05C2FDBD1C996051000E8DF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDBC1C996051000E8DF8 /* main.m */; };
+		05C2FDC01C996051000E8DF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDBF1C996051000E8DF8 /* AppDelegate.m */; };
+		05C2FDC31C996051000E8DF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDC21C996051000E8DF8 /* ViewController.m */; };
+		05C2FDC61C996051000E8DF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C2FDC41C996051000E8DF8 /* Main.storyboard */; };
+		05C2FDC81C996051000E8DF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C2FDC71C996051000E8DF8 /* Assets.xcassets */; };
+		05C2FDCB1C996051000E8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C2FDC91C996051000E8DF8 /* LaunchScreen.storyboard */; };
+		05C2FDD61C996051000E8DF8 /* YFAutoLayOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDD51C996051000E8DF8 /* YFAutoLayOutTests.m */; };
+		05C2FDE11C996051000E8DF8 /* YFAutoLayOutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDE01C996051000E8DF8 /* YFAutoLayOutUITests.m */; };
+		05C2FDF01C996074000E8DF8 /* YFAutoLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDEF1C996074000E8DF8 /* YFAutoLayOut.m */; };
+		05C2FDF31C99699E000E8DF8 /* UIView+YFAutoLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDF21C99699E000E8DF8 /* UIView+YFAutoLayOut.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05C2FDD21C996051000E8DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C2FDB01C996051000E8DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C2FDB71C996051000E8DF8;
+			remoteInfo = YFAutoLayOut;
+		};
+		05C2FDDD1C996051000E8DF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C2FDB01C996051000E8DF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05C2FDB71C996051000E8DF8;
+			remoteInfo = YFAutoLayOut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05C2FDB81C996051000E8DF8 /* YFAutoLayOut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YFAutoLayOut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C2FDBC1C996051000E8DF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05C2FDBE1C996051000E8DF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05C2FDBF1C996051000E8DF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05C2FDC11C996051000E8DF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		05C2FDC21C996051000E8DF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		05C2FDC51C996051000E8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		05C2FDC71C996051000E8DF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05C2FDCA1C996051000E8DF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		05C2FDCC1C996051000E8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C2FDD11C996051000E8DF8 /* YFAutoLayOutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFAutoLayOutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C2FDD51C996051000E8DF8 /* YFAutoLayOutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFAutoLayOutTests.m; sourceTree = "<group>"; };
+		05C2FDD71C996051000E8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C2FDDC1C996051000E8DF8 /* YFAutoLayOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFAutoLayOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05C2FDE01C996051000E8DF8 /* YFAutoLayOutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFAutoLayOutUITests.m; sourceTree = "<group>"; };
+		05C2FDE21C996051000E8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05C2FDEE1C996074000E8DF8 /* YFAutoLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAutoLayOut.h; sourceTree = "<group>"; };
+		05C2FDEF1C996074000E8DF8 /* YFAutoLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAutoLayOut.m; sourceTree = "<group>"; };
+		05C2FDF11C99699E000E8DF8 /* UIView+YFAutoLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YFAutoLayOut.h"; sourceTree = "<group>"; };
+		05C2FDF21C99699E000E8DF8 /* UIView+YFAutoLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YFAutoLayOut.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05C2FDB51C996051000E8DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C2FDCE1C996051000E8DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C2FDD91C996051000E8DF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05C2FDAF1C996051000E8DF8 = {
+			isa = PBXGroup;
+			children = (
+				05C2FDBA1C996051000E8DF8 /* YFAutoLayOut */,
+				05C2FDD41C996051000E8DF8 /* YFAutoLayOutTests */,
+				05C2FDDF1C996051000E8DF8 /* YFAutoLayOutUITests */,
+				05C2FDB91C996051000E8DF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05C2FDB91C996051000E8DF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05C2FDB81C996051000E8DF8 /* YFAutoLayOut.app */,
+				05C2FDD11C996051000E8DF8 /* YFAutoLayOutTests.xctest */,
+				05C2FDDC1C996051000E8DF8 /* YFAutoLayOutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05C2FDBA1C996051000E8DF8 /* YFAutoLayOut */ = {
+			isa = PBXGroup;
+			children = (
+				05C2FDBE1C996051000E8DF8 /* AppDelegate.h */,
+				05C2FDBF1C996051000E8DF8 /* AppDelegate.m */,
+				05C2FDC11C996051000E8DF8 /* ViewController.h */,
+				05C2FDC21C996051000E8DF8 /* ViewController.m */,
+				05C2FDEE1C996074000E8DF8 /* YFAutoLayOut.h */,
+				05C2FDEF1C996074000E8DF8 /* YFAutoLayOut.m */,
+				05C2FDF11C99699E000E8DF8 /* UIView+YFAutoLayOut.h */,
+				05C2FDF21C99699E000E8DF8 /* UIView+YFAutoLayOut.m */,
+				05C2FDC41C996051000E8DF8 /* Main.storyboard */,
+				05C2FDC71C996051000E8DF8 /* Assets.xcassets */,
+				05C2FDC91C996051000E8DF8 /* LaunchScreen.storyboard */,
+				05C2FDCC1C996051000E8DF8 /* Info.plist */,
+				05C2FDBB1C996051000E8DF8 /* Supporting Files */,
+			);
+			path = YFAutoLayOut;
+			sourceTree = "<group>";
+		};
+		05C2FDBB1C996051000E8DF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05C2FDBC1C996051000E8DF8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05C2FDD41C996051000E8DF8 /* YFAutoLayOutTests */ = {
+			isa = PBXGroup;
+			children = (
+				05C2FDD51C996051000E8DF8 /* YFAutoLayOutTests.m */,
+				05C2FDD71C996051000E8DF8 /* Info.plist */,
+			);
+			path = YFAutoLayOutTests;
+			sourceTree = "<group>";
+		};
+		05C2FDDF1C996051000E8DF8 /* YFAutoLayOutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05C2FDE01C996051000E8DF8 /* YFAutoLayOutUITests.m */,
+				05C2FDE21C996051000E8DF8 /* Info.plist */,
+			);
+			path = YFAutoLayOutUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05C2FDB71C996051000E8DF8 /* YFAutoLayOut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C2FDE51C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOut" */;
+			buildPhases = (
+				05C2FDB41C996051000E8DF8 /* Sources */,
+				05C2FDB51C996051000E8DF8 /* Frameworks */,
+				05C2FDB61C996051000E8DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YFAutoLayOut;
+			productName = YFAutoLayOut;
+			productReference = 05C2FDB81C996051000E8DF8 /* YFAutoLayOut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05C2FDD01C996051000E8DF8 /* YFAutoLayOutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C2FDE81C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOutTests" */;
+			buildPhases = (
+				05C2FDCD1C996051000E8DF8 /* Sources */,
+				05C2FDCE1C996051000E8DF8 /* Frameworks */,
+				05C2FDCF1C996051000E8DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C2FDD31C996051000E8DF8 /* PBXTargetDependency */,
+			);
+			name = YFAutoLayOutTests;
+			productName = YFAutoLayOutTests;
+			productReference = 05C2FDD11C996051000E8DF8 /* YFAutoLayOutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05C2FDDB1C996051000E8DF8 /* YFAutoLayOutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05C2FDEB1C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOutUITests" */;
+			buildPhases = (
+				05C2FDD81C996051000E8DF8 /* Sources */,
+				05C2FDD91C996051000E8DF8 /* Frameworks */,
+				05C2FDDA1C996051000E8DF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05C2FDDE1C996051000E8DF8 /* PBXTargetDependency */,
+			);
+			name = YFAutoLayOutUITests;
+			productName = YFAutoLayOutUITests;
+			productReference = 05C2FDDC1C996051000E8DF8 /* YFAutoLayOutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05C2FDB01C996051000E8DF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = haidai;
+				TargetAttributes = {
+					05C2FDB71C996051000E8DF8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					05C2FDD01C996051000E8DF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 05C2FDB71C996051000E8DF8;
+					};
+					05C2FDDB1C996051000E8DF8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 05C2FDB71C996051000E8DF8;
+					};
+				};
+			};
+			buildConfigurationList = 05C2FDB31C996051000E8DF8 /* Build configuration list for PBXProject "YFAutoLayOut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05C2FDAF1C996051000E8DF8;
+			productRefGroup = 05C2FDB91C996051000E8DF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05C2FDB71C996051000E8DF8 /* YFAutoLayOut */,
+				05C2FDD01C996051000E8DF8 /* YFAutoLayOutTests */,
+				05C2FDDB1C996051000E8DF8 /* YFAutoLayOutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05C2FDB61C996051000E8DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C2FDCB1C996051000E8DF8 /* LaunchScreen.storyboard in Resources */,
+				05C2FDC81C996051000E8DF8 /* Assets.xcassets in Resources */,
+				05C2FDC61C996051000E8DF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C2FDCF1C996051000E8DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C2FDDA1C996051000E8DF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05C2FDB41C996051000E8DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C2FDC31C996051000E8DF8 /* ViewController.m in Sources */,
+				05C2FDC01C996051000E8DF8 /* AppDelegate.m in Sources */,
+				05C2FDBD1C996051000E8DF8 /* main.m in Sources */,
+				05C2FDF31C99699E000E8DF8 /* UIView+YFAutoLayOut.m in Sources */,
+				05C2FDF01C996074000E8DF8 /* YFAutoLayOut.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C2FDCD1C996051000E8DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C2FDD61C996051000E8DF8 /* YFAutoLayOutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05C2FDD81C996051000E8DF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05C2FDE11C996051000E8DF8 /* YFAutoLayOutUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05C2FDD31C996051000E8DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C2FDB71C996051000E8DF8 /* YFAutoLayOut */;
+			targetProxy = 05C2FDD21C996051000E8DF8 /* PBXContainerItemProxy */;
+		};
+		05C2FDDE1C996051000E8DF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05C2FDB71C996051000E8DF8 /* YFAutoLayOut */;
+			targetProxy = 05C2FDDD1C996051000E8DF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05C2FDC41C996051000E8DF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C2FDC51C996051000E8DF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		05C2FDC91C996051000E8DF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05C2FDCA1C996051000E8DF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05C2FDE31C996051000E8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05C2FDE41C996051000E8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05C2FDE61C996051000E8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YFAutoLayOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.YFAutoLayOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05C2FDE71C996051000E8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = YFAutoLayOut/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.YFAutoLayOut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05C2FDE91C996051000E8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YFAutoLayOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.YFAutoLayOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFAutoLayOut.app/YFAutoLayOut";
+			};
+			name = Debug;
+		};
+		05C2FDEA1C996051000E8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YFAutoLayOutTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.YFAutoLayOutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YFAutoLayOut.app/YFAutoLayOut";
+			};
+			name = Release;
+		};
+		05C2FDEC1C996051000E8DF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YFAutoLayOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.YFAutoLayOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YFAutoLayOut;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		05C2FDED1C996051000E8DF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YFAutoLayOutUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.haidai.YFAutoLayOutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YFAutoLayOut;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05C2FDB31C996051000E8DF8 /* Build configuration list for PBXProject "YFAutoLayOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C2FDE31C996051000E8DF8 /* Debug */,
+				05C2FDE41C996051000E8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05C2FDE51C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C2FDE61C996051000E8DF8 /* Debug */,
+				05C2FDE71C996051000E8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05C2FDE81C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C2FDE91C996051000E8DF8 /* Debug */,
+				05C2FDEA1C996051000E8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		05C2FDEB1C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05C2FDEC1C996051000E8DF8 /* Debug */,
+				05C2FDED1C996051000E8DF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05C2FDB01C996051000E8DF8 /* Project object */;
+}
