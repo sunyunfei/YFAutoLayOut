@@ -21,7 +21,10 @@
     [self.view addSubview:view];
     
     [view setTranslatesAutoresizingMaskIntoConstraints:NO];
-    [view YFSpaceToFatherView:self.view leftDistance:100 rightDistance:10 topDistance:100 bottomDistance:100];
+    [view YFLeftSpaceEqualToFatherView:self.view];
+    [view YFRightSpaceEqualToFatherView:self.view];
+    [view YFTopSpaceEqualToFatherView:self.view];
+    [view YFBottomSpaceEqualToFatherView:self.view];
 
 }
 

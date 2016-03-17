@@ -133,6 +133,85 @@
                           bottomSpace];
     [bgView addConstraints:conArray];
 }
+#pragma mark 左边界约束一样
+/**
+ *  左边界约束
+ *
+ *  @param bgView <#bgView description#>
+ */
+- (void)YFLeftSpaceEqualToFatherView:(UIView *)bgView{
+
+    NSLayoutConstraint *leftSpace = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeLeftMargin relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeLeftMargin multiplier:1.0 constant:1.0];
+    [bgView addConstraint:leftSpace];
+}
+#pragma mark 右边界约束一样
+/**
+ *  右边界约束
+ *
+ *  @param bgView <#bgView description#>
+ */
+- (void)YFRightSpaceEqualToFatherView:(UIView *)bgView{
+
+    NSLayoutConstraint *rightSpace = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeRightMargin relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeRightMargin multiplier:1.0 constant:1.0];
+    [bgView addConstraint:rightSpace];
+}
+#pragma mark 上边界约束一样
+/**
+ *  上边界约束
+ *
+ *  @param bgView <#bgView description#>
+ */
+- (void)YFTopSpaceEqualToFatherView:(UIView *)bgView{
+
+    NSLayoutConstraint *topSpace = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeTopMargin relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeTopMargin multiplier:1.0 constant:1.0];
+    [bgView addConstraint:topSpace];
+}
+#pragma mark 下边界约束一样
+/**
+ *  下边界的约束
+ *
+ *  @param bgView <#bgView description#>
+ */
+- (void)YFBottomSpaceEqualToFatherView:(UIView *)bgView{
+
+    NSLayoutConstraint *bottomSpace = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeBottomMargin relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeBottomMargin multiplier:1.0 constant:1.0];
+    [bgView addConstraint:bottomSpace];
+}
+#pragma mark X轴居中布局
+/**
+ *  X轴居中布局
+ *
+ *  @param bgView <#bgView description#>
+ */
+- (void)YFCenterPointXToFatherView:(UIView *)bgView{
+
+    NSLayoutConstraint *centerX = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:1.0];
+    [bgView addConstraint:centerX];
+}
+#pragma mark Y轴居中布局
+/**
+ *  Y轴居中布局
+ *
+ *  @param bgView                    <#bgView description#>
+ */
+- (void)YFCenterPointYToFatherView:(UIView *)bgView{
+
+    NSLayoutConstraint *centerY = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:1.0];
+    [bgView addConstraint:centerY];
+}
+#pragma mark 居中布局
+/**
+ *  居中布局
+ *
+ *  @param bgView <#bgView description#>
+ */
+- (void)YFCenterPointToFatherView:(UIView *)bgView{
+
+    NSLayoutConstraint *centerX = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeCenterX relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeCenterX multiplier:1.0 constant:1.0];
+    NSLayoutConstraint *centerY = [NSLayoutConstraint constraintWithItem:self attribute:NSLayoutAttributeCenterY relatedBy:NSLayoutRelationEqual toItem:bgView attribute:NSLayoutAttributeCenterY multiplier:1.0 constant:1.0];
+    NSArray *conArray = @[centerX,centerY];
+    [bgView addConstraints:conArray];
+}
 #pragma mark 固定高度
 /**
  *  固定高度

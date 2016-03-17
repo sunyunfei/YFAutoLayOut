@@ -20,6 +20,21 @@
 - (void)YFBottomSpaceToFatherView:(UIView *)bgView Distance:(CGFloat)distance;
 //上下左右距离
 - (void)YFSpaceToFatherView:(UIView *)bgView leftDistance:(CGFloat)distance1 rightDistance:(CGFloat)distance2 topDistance:(CGFloat)distance3 bottomDistance:(CGFloat)distance4;
+
+//与父视图左边界一样的约束
+- (void)YFLeftSpaceEqualToFatherView:(UIView *)bgView;
+//与父视图右边界一样的约束
+- (void)YFRightSpaceEqualToFatherView:(UIView *)bgView;
+//与父视图上边界一样的约束
+- (void)YFTopSpaceEqualToFatherView:(UIView *)bgView;
+//与父视图下边界一样的约束
+- (void)YFBottomSpaceEqualToFatherView:(UIView *)bgView;
+//x轴居中
+- (void)YFCenterPointXToFatherView:(UIView *)bgView;
+//y轴居中
+- (void)YFCenterPointYToFatherView:(UIView *)bgView;
+//居中布局
+- (void)YFCenterPointToFatherView:(UIView *)bgView;
 //固定高度
 - (void)YFHeightOfView:(CGFloat)height;
 //固定宽度

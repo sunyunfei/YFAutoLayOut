@@ -15,7 +15,6 @@
 		05C2FDCB1C996051000E8DF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 05C2FDC91C996051000E8DF8 /* LaunchScreen.storyboard */; };
 		05C2FDD61C996051000E8DF8 /* YFAutoLayOutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDD51C996051000E8DF8 /* YFAutoLayOutTests.m */; };
 		05C2FDE11C996051000E8DF8 /* YFAutoLayOutUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDE01C996051000E8DF8 /* YFAutoLayOutUITests.m */; };
-		05C2FDF01C996074000E8DF8 /* YFAutoLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDEF1C996074000E8DF8 /* YFAutoLayOut.m */; };
 		05C2FDF31C99699E000E8DF8 /* UIView+YFAutoLayOut.m in Sources */ = {isa = PBXBuildFile; fileRef = 05C2FDF21C99699E000E8DF8 /* UIView+YFAutoLayOut.m */; };
 /* End PBXBuildFile section */
 
@@ -53,8 +52,6 @@
 		05C2FDDC1C996051000E8DF8 /* YFAutoLayOutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YFAutoLayOutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C2FDE01C996051000E8DF8 /* YFAutoLayOutUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YFAutoLayOutUITests.m; sourceTree = "<group>"; };
 		05C2FDE21C996051000E8DF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		05C2FDEE1C996074000E8DF8 /* YFAutoLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFAutoLayOut.h; sourceTree = "<group>"; };
-		05C2FDEF1C996074000E8DF8 /* YFAutoLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFAutoLayOut.m; sourceTree = "<group>"; };
 		05C2FDF11C99699E000E8DF8 /* UIView+YFAutoLayOut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+YFAutoLayOut.h"; sourceTree = "<group>"; };
 		05C2FDF21C99699E000E8DF8 /* UIView+YFAutoLayOut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+YFAutoLayOut.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -111,8 +108,6 @@
 				05C2FDBF1C996051000E8DF8 /* AppDelegate.m */,
 				05C2FDC11C996051000E8DF8 /* ViewController.h */,
 				05C2FDC21C996051000E8DF8 /* ViewController.m */,
-				05C2FDEE1C996074000E8DF8 /* YFAutoLayOut.h */,
-				05C2FDEF1C996074000E8DF8 /* YFAutoLayOut.m */,
 				05C2FDF11C99699E000E8DF8 /* UIView+YFAutoLayOut.h */,
 				05C2FDF21C99699E000E8DF8 /* UIView+YFAutoLayOut.m */,
 				05C2FDC41C996051000E8DF8 /* Main.storyboard */,
@@ -284,7 +279,6 @@
 				05C2FDC01C996051000E8DF8 /* AppDelegate.m in Sources */,
 				05C2FDBD1C996051000E8DF8 /* main.m in Sources */,
 				05C2FDF31C99699E000E8DF8 /* UIView+YFAutoLayOut.m in Sources */,
-				05C2FDF01C996074000E8DF8 /* YFAutoLayOut.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -508,6 +502,7 @@
 				05C2FDE71C996051000E8DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05C2FDE81C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOutTests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +511,7 @@
 				05C2FDEA1C996051000E8DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		05C2FDEB1C996051000E8DF8 /* Build configuration list for PBXNativeTarget "YFAutoLayOutUITests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +520,7 @@
 				05C2FDED1C996051000E8DF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
